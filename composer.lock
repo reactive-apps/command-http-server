@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "cakephp/collection",
-            "version": "3.6.5",
+            "version": "3.6.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cakephp/collection.git",
-                "reference": "1501057ca1d229373c21d03fdd2f25ce71360139"
+                "reference": "c3cce01e8c76a98cb6149f958e9b7acae5e1aa74"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cakephp/collection/zipball/1501057ca1d229373c21d03fdd2f25ce71360139",
-                "reference": "1501057ca1d229373c21d03fdd2f25ce71360139",
+                "url": "https://api.github.com/repos/cakephp/collection/zipball/c3cce01e8c76a98cb6149f958e9b7acae5e1aa74",
+                "reference": "c3cce01e8c76a98cb6149f958e9b7acae5e1aa74",
                 "shasum": ""
             },
             "require": {
@@ -50,7 +50,7 @@
                 "collections",
                 "iterators"
             ],
-            "time": "2018-05-31T20:11:56+00:00"
+            "time": "2018-06-10T19:23:43+00:00"
         },
         {
             "name": "doctrine/annotations",
@@ -2215,19 +2215,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/reactive-apps/command.git",
-                "reference": "a2b39450bb4a6ff37d31699624009244ab0f5057"
+                "reference": "179e7ce94aaabc138a351091bf15d8ea7d65f127"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/reactive-apps/command/zipball/a2b39450bb4a6ff37d31699624009244ab0f5057",
-                "reference": "a2b39450bb4a6ff37d31699624009244ab0f5057",
+                "url": "https://api.github.com/repos/reactive-apps/command/zipball/179e7ce94aaabc138a351091bf15d8ea7d65f127",
+                "reference": "179e7ce94aaabc138a351091bf15d8ea7d65f127",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.2"
             },
             "require-dev": {
-                "api-clients/test-utilities": "^4.3"
+                "api-clients/test-utilities": "^5.0"
             },
             "type": "library",
             "autoload": {
@@ -2236,7 +2236,7 @@
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
-            "time": "2018-05-16T20:54:50+00:00"
+            "time": "2018-07-09T21:34:55+00:00"
         },
         {
             "name": "reactive-apps/rx-streams",
@@ -2244,12 +2244,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/reactive-apps/rx-streams.git",
-                "reference": "c2e842e95b41561daf427cfafb38eff1baa74069"
+                "reference": "10a968255ffbcdaf1c0edf7d2f7accc7cc855972"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/reactive-apps/rx-streams/zipball/c2e842e95b41561daf427cfafb38eff1baa74069",
-                "reference": "c2e842e95b41561daf427cfafb38eff1baa74069",
+                "url": "https://api.github.com/repos/reactive-apps/rx-streams/zipball/10a968255ffbcdaf1c0edf7d2f7accc7cc855972",
+                "reference": "10a968255ffbcdaf1c0edf7d2f7accc7cc855972",
                 "shasum": ""
             },
             "require": {
@@ -2257,7 +2257,7 @@
                 "reactivex/rxphp": "^2.0"
             },
             "require-dev": {
-                "api-clients/test-utilities": "^4.3"
+                "api-clients/test-utilities": "^5.0"
             },
             "type": "library",
             "autoload": {
@@ -2266,7 +2266,7 @@
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
-            "time": "2018-05-20T10:55:26+00:00"
+            "time": "2018-07-09T21:34:00+00:00"
         },
         {
             "name": "reactivex/rxphp",
