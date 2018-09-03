@@ -52,7 +52,7 @@
         },
         {
             "name": "cakephp/collection",
-            "version": "3.6.10",
+            "version": "3.6.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cakephp/collection.git",
@@ -2674,12 +2674,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/reactive-apps/command.git",
-                "reference": "179e7ce94aaabc138a351091bf15d8ea7d65f127"
+                "reference": "dd38c8569247ad303618eee61392a1ab9fa171ba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/reactive-apps/command/zipball/179e7ce94aaabc138a351091bf15d8ea7d65f127",
-                "reference": "179e7ce94aaabc138a351091bf15d8ea7d65f127",
+                "url": "https://api.github.com/repos/reactive-apps/command/zipball/dd38c8569247ad303618eee61392a1ab9fa171ba",
+                "reference": "dd38c8569247ad303618eee61392a1ab9fa171ba",
                 "shasum": ""
             },
             "require": {
@@ -2695,7 +2695,7 @@
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
-            "time": "2018-07-09T21:34:55+00:00"
+            "time": "2018-09-03T07:41:16+00:00"
         },
         {
             "name": "reactive-apps/rx-streams",
@@ -2703,12 +2703,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/reactive-apps/rx-streams.git",
-                "reference": "10a968255ffbcdaf1c0edf7d2f7accc7cc855972"
+                "reference": "9ef2dff37579aa8914dcf53828ae3d0282fa6e2c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/reactive-apps/rx-streams/zipball/10a968255ffbcdaf1c0edf7d2f7accc7cc855972",
-                "reference": "10a968255ffbcdaf1c0edf7d2f7accc7cc855972",
+                "url": "https://api.github.com/repos/reactive-apps/rx-streams/zipball/9ef2dff37579aa8914dcf53828ae3d0282fa6e2c",
+                "reference": "9ef2dff37579aa8914dcf53828ae3d0282fa6e2c",
                 "shasum": ""
             },
             "require": {
@@ -2725,7 +2725,7 @@
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
-            "time": "2018-07-09T21:34:00+00:00"
+            "time": "2018-09-03T07:41:06+00:00"
         },
         {
             "name": "reactivex/rxphp",
