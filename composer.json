@@ -7,6 +7,7 @@
         "cakephp/collection": "^3.6",
         "doctrine/annotations": "^1.6",
         "lcobucci/jwt": "^3.3",
+        "league/openapi-psr7-validator": "^0.3.2",
         "nikic/fast-route": "^1.2",
         "react/http": "^0.8.0",
         "reactive-apps/command": "dev-master",
@@ -38,7 +39,8 @@
         "wyrihaximus/to-child-process-or-not-to-child-process": "^1.0",
         "wyrihaximus/to-coroutine-or-not-to-coroutine": "^1.0",
         "wyrihaximus/to-thread-or-not-to-thread": "dev-master",
-        "zendframework/zend-diactoros": "^2.1"
+        "zendframework/zend-diactoros": "^2.1",
+        "zircote/swagger-php": "^3.0"
     },
     "require-dev": {
         "monolog/monolog": "^1.23",
