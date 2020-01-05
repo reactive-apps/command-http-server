@@ -27,6 +27,7 @@
         "wyrihaximus/react-http-middleware-rewrite": "^1.0",
         "wyrihaximus/react-http-middleware-runner": "^1.0",
         "wyrihaximus/react-http-middleware-session": "^3.0",
+        "wyrihaximus/react-http-middleware-twig": "^1.0",
         "wyrihaximus/react-http-middleware-webroot-preload": "^1.0",
         "wyrihaximus/react-http-psr-15-middleware-group": "^1.2",
         "wyrihaximus/react-inspector-child-process-pools": "dev-master",
