@@ -3,26 +3,26 @@
 namespace ReactiveApps\Command\HttpServer\Middleware;
 
 use Psr\Http\Message\ServerRequestInterface;
+use React\Promise\Promise;
 use React\Promise\PromiseInterface;
+use Recoil\Kernel;
 use function React\Promise\resolve;
 use ReactiveApps\Command\HttpServer\RequestHandlerFactory;
-use WyriHaximus\Recoil\PromiseCoroutineWrapper;
-use WyriHaximus\Recoil\QueueCallerInterface;
 
 /**
  * @internal
  */
 final class CoroutineMiddleware
 {
-    /** @var PromiseCoroutineWrapper */
-    private $wrapper;
+    /** @var Kernel */
+    private $kernel;
 
     /** @var RequestHandlerFactory */
     private $requestHandlerFactory;
 
-    public function __construct(QueueCallerInterface $queueCaller, RequestHandlerFactory $requestHandlerFactory)
+    public function __construct(Kernel $kernel, RequestHandlerFactory $requestHandlerFactory)
     {
-        $this->wrapper = PromiseCoroutineWrapper::createFromQueueCaller($queueCaller);
+        $this->kernel = $kernel;
         $this->requestHandlerFactory = $requestHandlerFactory;
     }
 
@@ -39,7 +39,17 @@ final class CoroutineMiddleware
 
     private function runCoroutine(ServerRequestInterface $request): PromiseInterface
     {
-        $requestHandler = $this->requestHandlerFactory->create($request);
+        return new Promise(function (callable $resolve, callable $reject) use ($request) {
+            $requestHandler = $this->requestHandlerFactory->create($request);
+
+            $this->kernel->execute(function () use ($requestHandler, $request, $resolve, $reject) {
+                try {
+                    $resolve(yield $requestHandler($request));
+                } catch (\Throwable $throwable) {
+                    $reject($throwable);
+                }
+            });
+        });
 
         return $this->wrapper->call($requestHandler, $request);
     }
