@@ -29,8 +29,6 @@
         "wyrihaximus/react-http-middleware-session": "^3.0",
         "wyrihaximus/react-http-middleware-webroot-preload": "^1.0",
         "wyrihaximus/react-http-psr-15-middleware-group": "^1.2",
-        "wyrihaximus/react-inspector-child-process-pools": "dev-master",
-        "wyrihaximus/react-inspector-parallel-pools": "dev-master",
         "wyrihaximus/react-stream-json": "^1.2",
         "wyrihaximus/recoil-promise-coroutine-wrapper": "^1.0",
         "wyrihaximus/recoil-queue-caller-pool": "^1.2",

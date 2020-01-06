@@ -10,7 +10,7 @@ use WyriHaximus\React\Inspector\ChildProcessPools\ChildProcessPoolsCollector;
 return [
     'internal.http-server.child-process.pool' => \DI\factory(function (
         LoopInterface $loop,
-        ChildProcessPoolsCollector $collector = null,
+//        ChildProcessPoolsCollector $collector = null,
         float $ttl = 0.25,
         int $min = 0,
         int $max = 5
@@ -25,11 +25,11 @@ return [
             ]
         );
 
-        if ($collector instanceof ChildProcessPoolsCollector) {
-            $childProcessPool->done(function (PoolInterface $childProcessPool) use ($collector): void {
-                $collector->register('http-server', $childProcessPool);
-            });
-        }
+//        if ($collector instanceof ChildProcessPoolsCollector) {
+//            $childProcessPool->done(function (PoolInterface $childProcessPool) use ($collector): void {
+//                $collector->register('http-server', $childProcessPool);
+//            });
+//        }
 
         return $childProcessPool;
     })
