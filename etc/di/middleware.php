@@ -6,10 +6,10 @@ use ReactiveApps\Command\HttpServer\Middleware\ChildProcessMiddleware;
 use ReactiveApps\Command\HttpServer\Middleware\ControllerMiddleware;
 use ReactiveApps\Command\HttpServer\Middleware\CoroutineMiddleware;
 use ReactiveApps\Command\HttpServer\Middleware\RequestHandlerMiddleware;
-use ReactiveApps\Command\HttpServer\Middleware\TemplateRenderMiddleware;
 use ReactiveApps\Command\HttpServer\Middleware\ThreadMiddleware;
 use Twig\Environment;
 use WyriHaximus\React\Http\Middleware\MiddlewareRunner;
+use WyriHaximus\React\Http\Middleware\TemplateRenderMiddleware;
 use WyriHaximus\React\Parallel\PoolInterface;
 
 return [

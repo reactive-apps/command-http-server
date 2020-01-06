@@ -10,7 +10,7 @@ use ReactiveApps\Command\HttpServer\Annotations\Method;
 use ReactiveApps\Command\HttpServer\Annotations\Routes;
 use ReactiveApps\Command\HttpServer\Annotations\Template;
 use ReactiveApps\Command\HttpServer\Exception\UnknownRealmException;
-use ReactiveApps\Command\HttpServer\TemplateResponse;
+use WyriHaximus\React\Http\Middleware\TemplateResponse;
 use function WyriHaximus\getIn;
 use WyriHaximus\React\Http\Middleware\Session;
 use WyriHaximus\React\Http\Middleware\SessionMiddleware;

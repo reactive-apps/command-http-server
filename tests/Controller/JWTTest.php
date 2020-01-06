@@ -4,11 +4,11 @@ namespace ReactiveApps\Tests\Command\HttpServer\Controller;
 
 use ReactiveApps\Command\HttpServer\Controller\JWT;
 use ReactiveApps\Command\HttpServer\Exception\UnknownRealmException;
-use ReactiveApps\Command\HttpServer\TemplateResponse;
 use ReactiveApps\Command\HttpServer\Thruway\Realm;
 use ReactiveApps\Command\HttpServer\Thruway\RealmAuth;
 use RingCentral\Psr7\ServerRequest;
 use WyriHaximus\AsyncTestUtilities\AsyncTestCase;
+use WyriHaximus\React\Http\Middleware\TemplateResponse;
 
 /**
  * @internal
