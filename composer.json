@@ -40,7 +40,7 @@
         "zendframework/zend-diactoros": "^2.1"
     },
     "require-dev": {
-        "monolog/monolog": "^1.23",
+        "monolog/monolog": "^2.0",
         "twig/twig": "^2.8",
         "wyrihaximus/async-test-utilities": "^1.1",
         "wyrihaximus/cs-fixer-config": "^1.0",
