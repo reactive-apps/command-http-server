@@ -52,7 +52,7 @@
         },
         {
             "name": "cakephp/collection",
-            "version": "3.8.9",
+            "version": "3.8.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cakephp/collection.git",
@@ -11956,12 +11956,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/WyriHaximus/reactphp-parallel.git",
-                "reference": "ad5d26fd11c3c1a2ba362ff056777485c510a02b"
+                "reference": "73e9220c2f97f64fe4ece3ddaa825635b5aed65e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WyriHaximus/reactphp-parallel/zipball/ad5d26fd11c3c1a2ba362ff056777485c510a02b",
-                "reference": "ad5d26fd11c3c1a2ba362ff056777485c510a02b",
+                "url": "https://api.github.com/repos/WyriHaximus/reactphp-parallel/zipball/73e9220c2f97f64fe4ece3ddaa825635b5aed65e",
+                "reference": "73e9220c2f97f64fe4ece3ddaa825635b5aed65e",
                 "shasum": ""
             },
             "require": {
@@ -12002,7 +12002,7 @@
                 }
             ],
             "description": "Bridging ext-parallel and ReactPHP",
-            "time": "2019-12-25T17:01:35+00:00"
+            "time": "2020-02-10T21:11:49+00:00"
         },
         {
             "name": "wyrihaximus/react-parallel-contracts",
